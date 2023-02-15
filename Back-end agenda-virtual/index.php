@@ -60,7 +60,7 @@ $app->group('/v1', function (RouteCollectorProxy $group) {
     });
 
     $group->any('/Deletar_registros', function (Request $request, Response $response, $args) {
-        // ok
+        // OK
         $id_delete = $request->getParsedBody();
         $id = $id_delete['delete'];
 
